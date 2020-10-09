@@ -5,14 +5,14 @@
 }
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: #92817A;
+    background-color: #C7D6D5;
 }
 header {
     width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 40px;
-    background-color: #F1DABF;
+    background-color: #F7B32B;
     position: fixed;
     top: 0;
 }
@@ -27,23 +27,23 @@ header {
 }
 
 
-ul {
+nav ul {
     display: flex;
     justify-content: space-between;
     
 }
 
-li {
+nav ul li {
     list-style-type: none;
     color: #000500;
     font-size: large;
 }
-li a {
+nav ul li a {
     text-decoration: none;
     color: #000500;
     padding: 40px;
 }
-li a:hover {
+nav ul li a:hover {
     color:white;
     background-color: #000500;
 }
@@ -54,13 +54,13 @@ li a:hover {
     align-items: center;
     min-height: 240px;
     flex-direction: column;
-    background-color:#362417;
+    background-color:#C7D6D5;
     margin-top: 130px;
 }
 
 #subscribe-title {
     margin-bottom: 30px;
-    color: #F1DABF;
+    color: #0C120C;
     font-size: x-large;
 }
 input[type="email"] {
@@ -74,7 +74,7 @@ input[type="email"] {
 input[type="submit"] {
     padding: 23px;
     font-size: large;
-    background-color: #F1DABF;
+    background-color: #F7B32B;
     border: none;
     border-radius: 9px;
 }
@@ -110,4 +110,74 @@ input[type="submit"] {
 .icon img {
     max-height: 120px;
     padding: 23px;
+}
+
+.price-box {
+    border: solid black 3px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.price-box .level {
+    background-color: hsl(0, 3%, 65%);
+    width: 100%;
+    text-align: center;
+    padding: 23px 40px;
+}
+
+#product-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+#product-info ul li {
+    padding: 12px;
+    list-style-type: none;
+}
+
+#product-info button {
+    padding: 10px 20px;
+    color: white;
+    background-color:#F7B32B; 
+}
+
+#price-box-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    background-color: #F7B32B;
+    align-items: flex-end;
+}
+footer ul {
+    display:flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+footer ul li {
+    margin: 3px 20px;
+    list-style-type: none;
+}
+footer h2 {
+    font-size: small;
+}
+
+@media (max-width:430px) {
+    body {
+        font-size: 13px;
+    }
+
 }
