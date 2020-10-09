@@ -13,6 +13,8 @@ header {
     justify-content: space-between;
     padding: 40px;
     background-color: #F1DABF;
+    position: fixed;
+    top: 0;
 }
 
 #header-img {
@@ -23,6 +25,7 @@ header {
     display: flex;
     align-items: center;
 }
+
 
 ul {
     display: flex;
@@ -52,6 +55,7 @@ li a:hover {
     min-height: 240px;
     flex-direction: column;
     background-color:#362417;
+    margin-top: 130px;
 }
 
 #subscribe-title {
@@ -81,18 +85,29 @@ input[type="submit"] {
     align-items: center;
     min-height: 430px;
 }
-#services-box img{
-    max-height:100px;
-}
-#services-box {
+
+#services-box{
     display: flex;
-    align-items: center;
     justify-content: center;
 }
-#services-box div{
-    display: flex;
+#services {
+    
+    
 }
-#services-box div div{
+
+.row {
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.icon {
+    
+}
+.desc {
+
+}
+
+.icon img {
+    max-height: 120px;
+    padding: 23px;
 }
